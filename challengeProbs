@@ -1,0 +1,219 @@
+/*											draws three different rectangles
+function north(n) {
+	var i = 0
+
+  while (i < n){
+
+    up();
+
+    i = i + 1
+    setColor('red');
+
+  }
+
+}
+
+function south(n) {
+  var i = 0
+
+  while (i < n){
+
+    down();
+
+    i = i + 1
+    setColor('red');
+
+  }
+
+}
+
+function east(n) {
+  var i = 0
+
+  while (i < n){
+
+    right();
+
+    i = i + 1
+    setColor('red');
+
+  }
+
+}
+
+function west(n) {
+  var i = 0
+
+  while (i < n){
+
+    left();
+
+    i = i + 1
+    setColor('red');
+
+  }
+
+}
+
+south(5); 
+
+east(8);
+
+north(5);
+
+west(8);
+
+right();
+right();
+right();
+right();
+right();
+right();
+right();
+right();
+right();
+right();
+
+south(10); 
+
+east(20);
+
+north(10);
+
+west(20);
+
+down();
+down();
+down();
+down();
+down();
+down();
+down();
+down();
+down();
+down();
+down();
+down();
+down();
+down();
+down();
+down();
+down();
+d'own();
+down();
+down();
+down();
+down();
+down();
+down();
+
+south(30); 
+
+east(15);
+
+north(30);
+
+west(15); */
+
+
+/* function north(n, color) { 		rectangle function that moves dot to a spot, sets length and width, and sets color
+    var i = 0
+
+    while (i < n){
+
+      up();
+
+      i = i + 1
+      setColor(color);
+
+    }
+
+  }
+
+  function south(n, color) {
+    var i = 0
+
+    while (i < n){
+
+      down();
+
+      i = i + 1
+      setColor(color);
+
+    }
+
+  }
+
+  function east(n, color) {
+    var i = 0
+
+    while (i < n){
+
+      right();
+
+      i = i + 1
+      setColor(color);
+
+    }
+
+  }
+
+  function west(n, color) {
+    var i = 0
+
+    while (i < n){
+
+      left();
+
+      i = i + 1
+      setColor(color);
+
+    }
+
+	}
+  
+
+function rect(x, y, height, width, color) {
+  
+  if (x > 0){
+    i = 0
+    while (i < x){
+      right();
+      i = i + 1
+    }
+  } 
+  
+  if (y > 0){ 
+    z = 0
+    while (z < x){
+      up();
+      z = z + 1
+    }
+  }
+  
+  if (x < 0){
+    i = 0
+    while (i > x){
+      left();
+      i = i - 1
+    }
+  } 
+  
+  if (y < 0){ 
+    z = 0
+    while (z > x){
+      down();
+      z = z - 1
+    }
+  }
+  
+  
+  south(height, color);
+  east(height, color);
+  north(height, color);
+  west(height, color);
+  
+}
+
+rect(10, 20, 2, 4, 'red');
+rect(-10, -20, 2, 4, 'green');   */
